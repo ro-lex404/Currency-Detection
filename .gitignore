@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Un-ignore (include) specific files
+!best.pt
+!test_webcam.py
+!.gitignore
