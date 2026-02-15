@@ -3,7 +3,7 @@ import cv2
 import argparse
 
 # Load your trained model
-model = YOLO('best.pt')  # Put best.pt in same folder
+model = YOLO('new_best.pt')  # Put best.pt in same folder
 
 def run_webcam(conf_threshold=0.7):
     """Test model with webcam feed"""
@@ -74,3 +74,6 @@ if __name__ == "__main__":
         run_webcam(args.conf)
     else:
         test_image(args.image, args.conf)
+
+#COMMANDS TO TEST
+# python test_webcam.py --mode image --image 10.jpg - for image

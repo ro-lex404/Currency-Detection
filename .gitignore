@@ -3,5 +3,6 @@
 
 # Un-ignore (include) specific files
 !best.pt
+!new_best.pt
 !test_webcam.py
 !.gitignore
