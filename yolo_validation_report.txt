@@ -1,0 +1,93 @@
+============================================================
+YOLO CURRENCY NOTE VALIDATION REPORT
+============================================================
+
+Overall Accuracy: 96.16%
+Detection Rate: 96.31%
+Total Images: 2577
+Correct: 2478
+Incorrect: 4
+No Detection: 95
+Multiple Detections: 2
+
+PER-CLASS PERFORMANCE:
+--------------------------------------------------------------------------------
+
+fifty (YOLO Class 50):
+  Accuracy: 99.20% (495/499)
+  Detection Rate: 99.20%
+  Avg Confidence: 69.75%
+  No Detection: 4
+  Multiple Detections: 0
+  Errors:
+    IMG_1666262894673.jpg: ERROR: No detection
+    IMG_1666265771936.jpg: ERROR: No detection
+    IMG_1667847863641.jpg: ERROR: No detection
+    IMG_1667848011639.jpg: ERROR: No detection
+
+five_hundred (YOLO Class 500):
+  Accuracy: 100.00% (279/279)
+  Detection Rate: 100.00%
+  Avg Confidence: 86.19%
+  No Detection: 0
+  Multiple Detections: 0
+
+hundred (YOLO Class 100):
+  Accuracy: 98.19% (325/331)
+  Detection Rate: 98.49%
+  Avg Confidence: 82.82%
+  No Detection: 5
+  Multiple Detections: 1
+  Errors:
+    IMG_1666266733902.jpg: ERROR: No detection
+    IMG_1666270721989.jpg: ERROR: No detection
+    IMG_1667894151547.jpg: ERROR: No detection
+    IMG_1667894428481.jpg: ERROR: No detection
+    IMG_1667900227059.jpg: ERROR: No detection
+    IMG_1667901311596.jpg: predicted 50 (61.40%) | All: ['50 (61.40%)']
+
+ten (YOLO Class 10):
+  Accuracy: 99.69% (649/651)
+  Detection Rate: 99.69%
+  Avg Confidence: 84.25%
+  No Detection: 2
+  Multiple Detections: 1
+  Errors:
+    IMG_1666264115273.jpg: ERROR: No detection
+    IMG_1667832348156.jpg: ERROR: No detection
+
+twenty (YOLO Class 20):
+  Accuracy: 84.04% (458/545)
+  Detection Rate: 84.59%
+  Avg Confidence: 65.79%
+  No Detection: 84
+  Multiple Detections: 0
+  Errors:
+    IMG_1666262812237.jpg: ERROR: No detection
+    IMG_1666263228305.jpg: ERROR: No detection
+    IMG_1666263384147.jpg: predicted 10 (58.14%) | All: ['10 (58.14%)']
+    IMG_1666263409955.jpg: ERROR: No detection
+    IMG_1666263604161.jpg: ERROR: No detection
+    IMG_1666263616225.jpg: ERROR: No detection
+    IMG_1666263649110.jpg: ERROR: No detection
+    IMG_1666263666453.jpg: ERROR: No detection
+    IMG_1666263719237.jpg: ERROR: No detection
+    IMG_1666263773520.jpg: ERROR: No detection
+    IMG_1666263784630.jpg: ERROR: No detection
+    IMG_1666263800842.jpg: ERROR: No detection
+    IMG_1666263817674.jpg: ERROR: No detection
+    IMG_1666263874614.jpg: ERROR: No detection
+    IMG_1666263895891.jpg: ERROR: No detection
+    IMG_1666263910869.jpg: ERROR: No detection
+    IMG_1666263947473.jpg: ERROR: No detection
+    IMG_1666264045765.jpg: ERROR: No detection
+    IMG_1666264052850.jpg: ERROR: No detection
+    IMG_1666264067259.jpg: ERROR: No detection
+    ... and 67 more errors
+
+two_hundred (YOLO Class 200):
+  Accuracy: 100.00% (272/272)
+  Detection Rate: 100.00%
+  Avg Confidence: 81.97%
+  No Detection: 0
+  Multiple Detections: 0
